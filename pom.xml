@@ -7,10 +7,16 @@
     <groupId>franxx-code</groupId>
     <artifactId>apache-maven</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <name>apache-maven</name>
     <!-- FIXME change it to the project's website -->
     <url>https://www.example.com</url>
+
+    <modules>
+        <module>apache-maven-data</module>
+        <module>apache-maven-app</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
